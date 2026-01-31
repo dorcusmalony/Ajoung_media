@@ -48,6 +48,11 @@ a:hover {
   text-decoration: underline;
 }
 
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
