@@ -19,6 +19,21 @@
 .logo-link {
   text-decoration: none;
   color: #1e3a8a;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-image {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .logo h1 {

@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
 import './Header.css'
+import logoImage from '../assets/Ajuonggong logo.jpeg'
 
 const Header = () => {
   const location = useLocation()
@@ -20,8 +21,11 @@ const Header = () => {
       <div className="header-container">
         <div className="logo">
           <Link to="/" className="logo-link">
-            <h1>AG Media</h1>
-            <p className="tagline">Cultural Documentation & Communications</p>
+            <img src={logoImage} alt="AG Media Logo" className="logo-image" />
+            <div className="logo-text">
+              <h1>AG Media</h1>
+              <p className="tagline">Cultural Documentation & Communications</p>
+            </div>
           </Link>
         </div>
         

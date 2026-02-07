@@ -1,9 +1,9 @@
-import './PageStyles.css'
+import './MediaContent.css'
 
 const MediaContent = () => {
   return (
-    <div className="page">
-      <section className="page-hero">
+    <div className="media-page">
+      <section className="media-hero">
         <div className="container">
           <h1>Media & Content</h1>
           <p className="lead">
@@ -13,24 +13,28 @@ const MediaContent = () => {
         </div>
       </section>
 
-      <section className="page-content">
+      <section className="media-grid-section">
         <div className="container">
-          <div className="content-types">
-            <div className="content-type">
-              <h2>Articles & Features</h2>
-              <p>In-depth journalism covering South Sudanese community issues, cultural events, and diaspora experiences.</p>
+          <div className="media-grid">
+            <div className="media-category">
+              <div className="media-icon">📹</div>
+              <h2>Videos</h2>
+              <p>Documentary films, interviews, and cultural event coverage produced to broadcast standards.</p>
+              <div className="media-placeholder">Video content coming soon</div>
             </div>
-            <div className="content-type">
-              <h2>Interviews & Profiles</h2>
-              <p>Conversations with community leaders, cultural practitioners, and individuals shaping South Sudanese narratives.</p>
+            
+            <div className="media-category">
+              <div className="media-icon">🎙️</div>
+              <h2>Podcasts</h2>
+              <p>In-depth conversations with community leaders and cultural practitioners.</p>
+              <div className="media-placeholder">Podcast series in development</div>
             </div>
-            <div className="content-type">
-              <h2>Cultural Documentation</h2>
-              <p>Systematic preservation of traditions, ceremonies, and cultural practices for educational and archival purposes.</p>
-            </div>
-            <div className="content-type">
-              <h2>Analysis & Commentary</h2>
-              <p>Expert perspectives on policy, social issues, and cultural developments affecting South Sudanese communities.</p>
+            
+            <div className="media-category">
+              <div className="media-icon">📸</div>
+              <h2>Photo Essays</h2>
+              <p>Visual storytelling that captures South Sudanese life and cultural heritage.</p>
+              <div className="media-placeholder">Photo collections coming soon</div>
             </div>
           </div>
         </div>
